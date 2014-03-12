@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Citaat feature.
+ */
+
+include_once 'citaat.features.inc';
