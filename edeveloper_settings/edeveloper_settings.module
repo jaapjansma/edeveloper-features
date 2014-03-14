@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Edeveloper Settings feature.
+ */
+
+include_once 'edeveloper_settings.features.inc';

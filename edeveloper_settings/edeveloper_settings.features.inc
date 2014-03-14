@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * settings.features.inc
+ * edeveloper_settings.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function settings_ctools_plugin_api($module = NULL, $api = NULL) {
+function edeveloper_settings_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * settings.features.filter.inc
+ * edeveloper_settings.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function settings_filter_default_formats() {
+function edeveloper_settings_filter_default_formats() {
   $formats = array();
 
   // Exported format: Filtered HTML.
