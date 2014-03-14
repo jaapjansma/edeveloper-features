@@ -5,6 +5,6 @@ package = Edeveloper
 version = 7.x-1.0-beta1
 project = expertise
 dependencies[] = references
-dependencies[] = edeveloper-settings
+dependencies[] = edeveloper_settings
 features[features_api][] = api:2
 project path = sites/all/modules/edeveloper-features
