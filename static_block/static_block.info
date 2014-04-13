@@ -1,0 +1,17 @@
+name = Static block
+description = Blocks with static content
+core = 7.x
+package = Edeveloper
+version = 7.x-1.0-beta1
+project = static_block
+dependencies[] = edeveloper_settings
+dependencies[] = fe_block
+features[fe_block_boxes][] = edeveloper_topbar
+features[fe_block_boxes][] = footer_contact
+features[fe_block_boxes][] = footer_partner
+features[fe_block_boxes][] = footer_socialmedia
+features[fe_block_settings][] = menu_block-1
+features[fe_block_settings][] = menu_block-2
+features[features_api][] = api:2
+features_exclude[dependencies][menu_block] = menu_block
+project path = sites/all/modules/edeveloper-features
