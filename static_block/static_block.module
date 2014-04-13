@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Static content feature.
  */
+
+include_once 'static_block.features.inc';
