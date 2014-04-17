@@ -3,4 +3,5 @@ description = Settings for edeveloper navigation
 package = Edeveloper
 dependencies[] = menu_block
 
-files[] = edeveloper-navigation.module
+core = 7.x
+
