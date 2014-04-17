@@ -1,0 +1,6 @@
+name = Edeveloper Navigation
+description = Settings for edeveloper navigation
+package = Edeveloper
+dependencies[] = menu_block
+
+files[] = edeveloper-navigation.module

@@ -1,0 +1,31 @@
+/**
+ * Implements hook_menu_block_blocks().
+ */
+function edeveloper-navigation_menu_block_blocks() {
+  // The array key is the block delta used by menu block.
+  return array(
+    'edeveloper-navigation-1' => array(
+      'menu_name'   => 'main-menu',
+      'parent_mlid' => 0,
+      'title_link'  => 0,
+      'admin_title' => 'Sitemap',
+      'level'       => 1,
+      'follow'      => 0,
+      'depth'       => 2,
+      'expanded'    => 1,
+      'sort'        => 0,
+    ),
+    'edeveloper-navigation-2' => array(
+      'menu_name'   => 'main-menu',
+      'parent_mlid' => 0,
+      'title_link'  => 0,
+      'admin_title' => 'Menu in sidebar',
+      'level'       => 2,
+      'follow'      => 0,
+      'depth'       => 0,
+      'expanded'    => 1,
+      'sort'        => 0,
+    ),
+  );
+}
+
