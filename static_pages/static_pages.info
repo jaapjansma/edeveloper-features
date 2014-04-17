@@ -15,6 +15,7 @@ features[features_api][] = api:2
 features[node_export_features][] = 022fb231-21ab-4400-b3cd-a851731204b6
 features[node_export_features][] = 51bda99f-4b05-43e1-ae19-16563bad57e4
 features[node_export_features][] = 7a87dd52-ee92-4933-90c7-63d32f03dff8
+features[node_export_features][] = 8065af33-9749-468a-a1f3-d950feaacec0
 features[variable][] = site_403
 features[variable][] = site_404
 features[variable][] = site_frontpage

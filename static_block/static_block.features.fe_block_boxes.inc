@@ -20,9 +20,9 @@ function static_block_default_fe_block_boxes() {
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Contactgegevens';
-  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'footer_contact';
-  $fe_block_boxes->body = '<p>Edeveloper Dubceksingel 106, 6716 RG Ede info@edeveloper.nl (t) +31 (318) 743800 KvK: 59199326 BTW: NL108761344B02 Bank:NL42 TRIO 0197 769 381</p>';
+  $fe_block_boxes->body = '<p>Edeveloper</p><p>Dubceksingel 106,<br />6716 RG Ede</p><p>info@edeveloper.nl<br />(t) +31 (318) 743800</p><p>KvK: 59199326<br />BTW: NL108761344B02<br />Bank:NL42 TRIO 0197 769 381</p>';
 
   $export['footer_contact'] = $fe_block_boxes;
 

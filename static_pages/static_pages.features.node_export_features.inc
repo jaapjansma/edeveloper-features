@@ -319,6 +319,109 @@ function static_pages_node_export_features_default() {
       \'menu\' => NULL,
       \'node_export_drupal_version\' => \'7\',
     ),
+  (object) array(
+      \'vid\' => \'26\',
+      \'uid\' => \'1\',
+      \'title\' => \'Contact\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'e7e8dafe-c68c-4cc1-8461-e1bb6ddfada0\',
+      \'nid\' => \'26\',
+      \'type\' => \'page\',
+      \'language\' => \'und\',
+      \'created\' => \'1397754854\',
+      \'changed\' => \'1397754854\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'8065af33-9749-468a-a1f3-d950feaacec0\',
+      \'revision_timestamp\' => \'1397754854\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'<p>Edeveloper</p><p>Dubceksingel 106,<br />6716 RG Ede</p><p>(e) info@edeveloper.nl<br /><span style="line-height:1.538em">(t) +31 (318)&nbsp;</span><span style="line-height:1.538em">743800&nbsp;</span></p><p><span style="line-height:1.538em">KvK: 59199326<br />BTW: NL108761344B02<br />Bank:NL42 TRIO 0197 769 381</span></p>\',
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => " <p>Edeveloper</p>\\n<p>Dubceksingel 106,<br />6716 RG Ede</p>\\n<p>(e) <a href=\\"mailto:info@edeveloper.nl\\">info@edeveloper.nl</a><br /><span style=\\"line-height:1.538em\\">(t) +31 (318) </span><span style=\\"line-height:1.538em\\">743800 </span></p>\\n<p><span style=\\"line-height:1.538em\\">KvK: 59199326<br />BTW: NL108761344B02<br />Bank:NL42 TRIO 0197 769 381</span></p>\\n ",
+            \'safe_summary\' => \'  \',
+          ),
+        ),
+      ),
+      \'field_expertises_reference\' => array(),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1397754854\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'admin\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => array(
+        \'pid\' => \'66\',
+        \'source\' => \'node/26\',
+        \'alias\' => \'contact\',
+        \'language\' => \'und\',
+      ),
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
 )',
 );
   return $node_export;

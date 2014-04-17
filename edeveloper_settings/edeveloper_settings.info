@@ -6,6 +6,7 @@ version = 7.x-1.0-beta
 project = edeveloper_settings
 dependencies[] = ctools
 dependencies[] = custom_breadcrumbs
+dependencies[] = edeveloper_navigation
 dependencies[] = fe_block
 dependencies[] = features
 dependencies[] = filter
