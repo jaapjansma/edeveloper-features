@@ -35,6 +35,9 @@ function edeveloper_settings_wysiwyg_default_profiles() {
           'Format' => 1,
           'Table' => 1,
         ),
+        'drupal' => array(
+          'media' => 1,
+        ),
       ),
       'toolbar_loc' => 'top',
       'toolbar_align' => 'left',
@@ -78,6 +81,9 @@ function edeveloper_settings_wysiwyg_default_profiles() {
           'RemoveFormat' => 1,
           'Format' => 1,
           'Table' => 1,
+        ),
+        'drupal' => array(
+          'media' => 1,
         ),
       ),
       'toolbar_loc' => 'top',
